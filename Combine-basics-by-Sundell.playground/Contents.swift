@@ -5,7 +5,7 @@ import Foundation
 
 // 1. Basics
 
-guard let url = URL(string: "https://api.github.com/repos/clarknt/100-days-of-swiftui") else {
+guard let url = URL(string: "https://api.github.com/repos/clarknt/combine-basics") else {
     preconditionFailure("Invalid URL")
 }
 let publisher =
